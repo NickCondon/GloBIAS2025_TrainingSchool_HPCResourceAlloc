@@ -1,0 +1,4 @@
+python3 - <<'EOF'
+from blur_benchmark import generate_test_data
+generate_test_data("input_images", n_images=500, size=(1024,1024))
+EOF
